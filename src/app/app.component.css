@@ -1,0 +1,9 @@
+img {
+    max-width: 100px;
+}
+
+#pageTitle {
+    font-size: 30px;
+    margin-right: 6vw;
+    margin-left: 1vw;
+}
