@@ -1,0 +1,13 @@
+.welcome {
+    height: 63vh;
+    display: flex;
+    align-items: top;
+    justify-content: start;
+
+}
+
+.briefBio {
+    font-size: 28px;
+    margin-left: 20vw;
+    margin-top: 10vh;
+}
