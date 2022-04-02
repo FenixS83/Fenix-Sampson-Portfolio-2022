@@ -1,0 +1,13 @@
+.about-container {
+    height: 63vh;
+    display: flex;
+    align-items: top;
+    justify-content: start;
+
+}
+
+.about {
+    font-size: 20px;
+    margin-left: 5vw;
+    margin-top: 7vh;
+}

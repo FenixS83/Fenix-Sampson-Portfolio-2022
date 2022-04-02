@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SelfieComponent } from './selfie/selfie.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,13 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      { path: '', component: WelcomeComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'selfie', component: SelfieComponent },
+    ])
+
   ],
   providers: [],
   bootstrap: [AppComponent]
