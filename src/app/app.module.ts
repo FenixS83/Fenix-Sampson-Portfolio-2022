@@ -8,6 +8,7 @@ import { SelfieComponent } from './selfie/selfie.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
     FooterComponent,
     SelfieComponent,
     WelcomeComponent,
-    AboutComponent
+    AboutComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +26,7 @@ import { RouterModule } from '@angular/router';
       { path: '', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'selfie', component: SelfieComponent },
+      { path: 'resume', component: ResumeComponent }
     ])
 
   ],

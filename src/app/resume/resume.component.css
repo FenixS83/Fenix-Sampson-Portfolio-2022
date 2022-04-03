@@ -1,0 +1,11 @@
+.resume-container {
+    height: 56vh;
+    margin-top: 7vh;
+    align-items: top;
+    justify-content: start;
+}
+
+.btn {
+    margin-left: 65vw;
+    margin-top: -7vh;
+}
