@@ -1,0 +1,72 @@
+
+<div class='projectListCard'>
+    
+    <div class='projectListHeader'>
+        <h3>Projects</h3>
+    </div>
+
+    <div class='projectListCardBody'>
+        <div class='row'>
+            <div class='col-md-2'>Filter by:</div>
+            <div class='col-md-4'>
+                <!-- <input type='text' 
+                    [(ngModel)]='listFilter'/> -->
+                <input type='text'/>
+            </div>
+        </div>
+    </div>
+
+    <div class='row'>
+    <!-- <div class='row'
+    *ngIf='listFilter'> -->
+        <div class='col-md-6'>
+            <h4>Filtered by: Remove this and uncomment</h4>
+            <!-- <h4>Filtered by: {{listFilter}}</h4> -->
+        </div>
+    </div>
+
+    <div class='table-responsive'>
+        <table class='projectsListTable'>
+            
+            <thead>
+                <tr>
+                    <th>Thumbnail</th>
+                    <th>Title</th>
+                    <th>Date Created:</th>
+                    <th>Description</th>
+                    <th>Technologies/Resources</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- <tr *ngFor='let project of projects | filter:listFilter'> -->
+                <tr *ngFor='let project of projects | filter:listFilter'>
+                    <td>
+                        <img src='{{project.thumbnail}}'/>
+                    </td>
+                    <td>
+                        <a [routerLink]="['/projects', project.id]">
+                            {{project.title}}
+                        </a>
+                    </td>
+                    <td>
+                        {{project.dateCreated}}
+                    </td>
+                    <td>
+                        {{project.description}}
+                    </td>
+                    <td>
+                        {{project.technologies}}
+                    </td>
+
+                </tr>
+        </table>
+    </div>
+</div>
+
+<div *ngIf='errorMessage'
+     class='alert alert-danger'>
+  Error: {{ errorMessage }}
+</div>
+
+

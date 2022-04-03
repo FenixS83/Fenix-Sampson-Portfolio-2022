@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
 import { ResumeComponent } from './resume/resume.component';
+import { ProjectsListComponent } from './projects-list/projects-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ResumeComponent } from './resume/resume.component';
     SelfieComponent,
     WelcomeComponent,
     AboutComponent,
-    ResumeComponent
+    ResumeComponent,
+    ProjectsListComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,8 @@ import { ResumeComponent } from './resume/resume.component';
       { path: '', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'selfie', component: SelfieComponent },
-      { path: 'resume', component: ResumeComponent }
+      { path: 'resume', component: ResumeComponent },
+      { path: 'projects', component: ProjectsListComponent }
     ])
 
   ],
