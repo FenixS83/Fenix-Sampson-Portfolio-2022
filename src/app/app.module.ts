@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,10 +31,15 @@ import { ProjectsListComponent } from './projects-list/projects-list.component';
       { path: 'selfie', component: SelfieComponent },
       { path: 'resume', component: ResumeComponent },
       { path: 'projects', component: ProjectsListComponent }
-    ])
+    ]),
+    FormsModule
 
   ],
-  providers: [],
+
+  exports: [
+  ],
+
+  // providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
