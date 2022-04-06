@@ -3,13 +3,13 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 import { IProject } from './projectsInterface';
-import _jsonURL from '../../../projects.json';
+import _jsonURL from 'projects.json';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProjectService {
-  private _projectsURL = '../../../projects.json';
+  private _projectsURL = 'projects.json';
 
   Projects: any | IProject[] = _jsonURL;
 

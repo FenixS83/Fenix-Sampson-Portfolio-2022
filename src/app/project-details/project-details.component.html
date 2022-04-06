@@ -1,0 +1,53 @@
+<div class='card'>
+
+    <div class='card-header'>
+        <h3>Project Details</h3>
+    </div>
+
+    <div class='card-body' *ngIf='project'>
+        <div class='row'>
+            <div class='col-md-8'>
+
+                <div class='row'>
+                    <div class='col-md-4'>Title:</div>
+                    <div class='col-md-8'>Weather Dashboard</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>Date Created:</div>
+                    <div class='col-md-8'>March 19, 2021</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>Description:</div>
+                    <div class='col-md-8'>A dashboard to monitor the weather</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>Languages Used:</div>
+                    <div class='col-md-8'>HTML, CSS, JS</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>Additional Resources:</div>
+                    <div class='col-md-8'>npm, express, node, anime.js, weather api</div>
+                </div>
+
+            </div>
+
+
+            <div class='col-md-4'>
+                <img src='../../../assets/images/weather-dashboard.png' 
+                class='center-block img-responsive'>
+                [title]='weather-dashboard'
+                [style.width.px]='200'
+                [style.margin.px]='2'> 
+            </div>
+
+        </div>
+    </div>
+
+    <div class='card-footer'>
+        <button class='btn btn-outline-secondary'
+                style='width:80px'
+                (click)='onBack()'>
+          <i class='fa fa-chevron-left'></i> Back
+        </button>
+      </div>
+</div>

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -11,6 +11,9 @@ import { RouterModule } from '@angular/router';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { FormsModule } from '@angular/forms';
+import { RouterTestingModule } from '@angular/router/testing';
+import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { ProjectDetailGuard } from './project-details/project-detail.guard';
 
 @NgModule({
   declarations: [
@@ -20,26 +23,31 @@ import { FormsModule } from '@angular/forms';
     WelcomeComponent,
     AboutComponent,
     ResumeComponent,
-    ProjectsListComponent
+    ProjectsListComponent,
+    ProjectDetailsComponent,
+
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     RouterModule.forRoot([
       { path: '', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'selfie', component: SelfieComponent },
       { path: 'resume', component: ResumeComponent },
-      { path: 'projects', component: ProjectsListComponent }
+      { path: 'projects', component: ProjectsListComponent },
+      { path: 'projects/:id', component: ProjectDetailsComponent, canActivate: [ProjectDetailGuard] }
     ]),
-    FormsModule
+    FormsModule,
+    RouterTestingModule,
 
   ],
 
   exports: [
   ],
 
-  // providers: [],
+  providers: [RouterModule, ProjectDetailGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

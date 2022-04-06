@@ -1,0 +1,11 @@
+[
+    {
+      "projectId": 1,
+      "projectTitle": "Weather Dashboard",
+      "creationDate": "March 19, 2021",
+      "description": "Dashboard to monitor Weather.",
+      "languages": "Javascript, HTML, CSS",
+      "resources": "npm, express, node, anime.js, weather api",
+      "imageUrl": "./assets/images/weather_dashboard_SS_1.jpg"
+    }
+]

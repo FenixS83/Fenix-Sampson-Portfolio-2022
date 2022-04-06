@@ -37,23 +37,40 @@
 
             <tbody>
                 <tr *ngFor='let project of filteredProjects'>
-                    <td>
+                    <!-- <td>
                         <img src='{{project.thumbnail}}'/>
+                    </td> -->
+                    <td>
+                        <img src='../../assets/images/weather_dashboard_SS_1.jpg'/>
                     </td>
                     <td>
                         <a [routerLink]="['/projects', project.id]">
-                            {{project.title}}
+                            Weahther Dashboard
                         </a>
                     </td>
+                    <!-- <td>
+                        <a [routerLink]="['/projects', project.id]">
+                            {{project.title}}
+                        </a>
+                    </td> -->
                     <td>
+                        Oct. 12, 2021
+                    </td>
+                    <!-- <td>
                         {{project.dateCreated}}
-                    </td>
+                    </td> -->
                     <td>
+                        A dashboard to monitor weather
+                    </td>
+                    <!-- <td>
                         {{project.description}}
-                    </td>
+                    </td> -->
                     <td>
-                        {{project.technologies}}
+                        HTML, CSS, JS
                     </td>
+                    <!-- <td>
+                        {{project.technologies}}
+                    </td> -->
 
                 </tr>
         </table>
