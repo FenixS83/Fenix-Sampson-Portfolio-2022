@@ -1,0 +1,19 @@
+.projectDetailsCard {
+    margin-top: 5vh;
+}
+
+
+.card-body {
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.projectImage {
+    width: 40vw;
+    margin-left: -20vw;
+    margin-top: 30vh;
+}

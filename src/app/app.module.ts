@@ -16,6 +16,7 @@ import { ProjectDetailsComponent } from './project-details/project-details.compo
 import { ProjectDetailGuard } from './project-details/project-detail.guard';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactComponent } from './contact/contact.component';
 // import { MatProgressBar } from '@angular/material/progress-bar';
 
 @NgModule({
@@ -29,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectsListComponent,
     ProjectDetailsComponent,
     CertificationsComponent,
+    ContactComponent,
 
   ],
   imports: [
@@ -43,6 +45,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       { path: 'projects', component: ProjectsListComponent },
       { path: 'projects/:id', component: ProjectDetailsComponent, canActivate: [ProjectDetailGuard] },
       { path: 'certifications', component: CertificationsComponent },
+      { path: 'contact', component: ContactComponent },
     ]),
     FormsModule,
     RouterTestingModule,

@@ -1,0 +1,14 @@
+.contactCard {
+    margin-top: 5vh;
+}
+
+
+.businessCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+    margin-left: 45vw;
+    margin-top: -20vh;
+    margin-bottom: 5vh;
+}
