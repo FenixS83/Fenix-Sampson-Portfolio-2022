@@ -14,6 +14,9 @@ import { FormsModule } from '@angular/forms';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 import { ProjectDetailGuard } from './project-details/project-detail.guard';
+import { CertificationsComponent } from './certifications/certifications.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { MatProgressBar } from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,7 @@ import { ProjectDetailGuard } from './project-details/project-detail.guard';
     ResumeComponent,
     ProjectsListComponent,
     ProjectDetailsComponent,
+    CertificationsComponent,
 
   ],
   imports: [
@@ -37,10 +41,13 @@ import { ProjectDetailGuard } from './project-details/project-detail.guard';
       { path: 'selfie', component: SelfieComponent },
       { path: 'resume', component: ResumeComponent },
       { path: 'projects', component: ProjectsListComponent },
-      { path: 'projects/:id', component: ProjectDetailsComponent, canActivate: [ProjectDetailGuard] }
+      { path: 'projects/:id', component: ProjectDetailsComponent, canActivate: [ProjectDetailGuard] },
+      { path: 'certifications', component: CertificationsComponent },
     ]),
     FormsModule,
     RouterTestingModule,
+    BrowserAnimationsModule,
+    // MatProgressBar
 
   ],
 

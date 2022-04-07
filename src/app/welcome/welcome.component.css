@@ -2,7 +2,7 @@
     height: 63vh;
     display: flex;
     align-items: top;
-    justify-content: start;
+    justify-content: flex-start;
 
 }
 

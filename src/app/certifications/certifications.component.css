@@ -1,0 +1,12 @@
+.certifications-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.certificateImage {
+    width: 70vw;
+    margin: 5vw;
+    border: 1px solid black;
+}
