@@ -6,6 +6,12 @@
 }
 
 .btn {
+    background-color: #adaba8;
+    color: #000000;
     margin-left: 65vw;
     margin-top: -7vh;
+}
+
+a {
+    text-decoration: none;
 }

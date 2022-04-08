@@ -6,7 +6,9 @@
 }
 
 .certificateImage {
-    width: 70vw;
-    margin: 5vw;
+    width: 50vw;
+    margin-left: 30vw;
+    margin-top: -10vh;
+    margin-bottom: 30vh;
     border: 1px solid black;
 }

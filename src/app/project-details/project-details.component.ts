@@ -12,7 +12,7 @@ export class ProjectDetailsComponent implements OnInit {
 
   pageTitle: string = 'Project Details';
   errorMessage ='';
-  project: IProject | undefined;
+  project: IProject | any;
 
 
 

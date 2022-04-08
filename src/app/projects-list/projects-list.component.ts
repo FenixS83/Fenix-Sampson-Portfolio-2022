@@ -13,7 +13,7 @@ export class ProjectsListComponent implements OnInit {
   pageTitle = 'Projects List';
   imageWidth=75;
   imageMargin = 2;
-  errorMessage = 'something went wrong';
+  errorMessage = '';
   sub!: Subscription;
 
   private _listFilter = '';
