@@ -1,3 +1,7 @@
 .projectsListCard {
     margin-top: 5vh;
 }
+
+.projectThumbnail {
+    width: 5vw;
+}

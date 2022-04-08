@@ -31,46 +31,41 @@
                     <th>Title</th>
                     <th>Date Created:</th>
                     <th>Description</th>
-                    <th>Technologies/Resources</th>
+                    <th>Languages</th>
+                    <th>Resources</th>
                 </tr>
             </thead>
 
             <tbody>
                 <tr *ngFor='let project of filteredProjects'>
-                    <!-- <td>
-                        <img src='{{project.thumbnail}}'/>
-                    </td> -->
                     <td>
-                        <img src='../../assets/images/weather_dashboard_SS_1.jpg'/>
+                        <img [src]='project.imageUrl'
+                             [title]='project.projectTitle | uppercase'
+                             [alt]='project.projectTitle'
+                             class='projectThumbnail'/>
                     </td>
+
                     <td>
-                        <a [routerLink]="['/projects', project.id]">
-                            Weahther Dashboard
+                        <a [routerLink]="['/projects', project.projectId]">
+                            {{project.projectTitle}}
                         </a>
                     </td>
-                    <!-- <td>
-                        <a [routerLink]="['/projects', project.id]">
-                            {{project.title}}
-                        </a>
-                    </td> -->
+
                     <td>
-                        Oct. 12, 2021
+                        {{project.creationDate}}
                     </td>
-                    <!-- <td>
-                        {{project.dateCreated}}
-                    </td> -->
+
                     <td>
-                        A dashboard to monitor weather
-                    </td>
-                    <!-- <td>
                         {{project.description}}
-                    </td> -->
-                    <td>
-                        HTML, CSS, JS
                     </td>
-                    <!-- <td>
-                        {{project.technologies}}
-                    </td> -->
+
+                    <td>
+                        {{project.languages}}
+                    </td>
+
+                    <td>
+                        {{project.resources}}
+                    </td>
 
                 </tr>
         </table>

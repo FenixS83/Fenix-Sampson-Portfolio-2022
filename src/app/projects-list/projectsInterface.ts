@@ -1,9 +1,12 @@
 export interface IProject {
-    title: any;
-    id: number;
-    dateCreated: string;
+    projectId: number;
+    projectTitle: any;
+    creationDate: string;
     description: string;
     languages: string;
     technologies: string;
-    thumbnail: string;
+    resources: string;
+    imageUrl: string;
+    github: string;
+    deployedLink: string;
 }

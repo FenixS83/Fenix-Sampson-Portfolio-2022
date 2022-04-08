@@ -9,7 +9,7 @@ import _jsonURL from 'projects.json';
   providedIn: 'root'
 })
 export class ProjectService {
-  private _projectsURL = 'projects.json';
+  private _projectsURL = 'api/projects/projects.json';
 
   Projects: any | IProject[] = _jsonURL;
 
@@ -25,7 +25,7 @@ export class ProjectService {
 
   getProject(id: number): Observable<IProject | undefined> {
     return this.getProjects().pipe(
-      map((projects: IProject[]) => projects.find(p => p.id === id))
+      map((projects: IProject[]) => projects.find(p => p.projectId === id))
     );
   }
 

@@ -8,6 +8,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './projects-list.component.html',
   styleUrls: ['./projects-list.component.css']
 })
+
 export class ProjectsListComponent implements OnInit {
   pageTitle = 'Projects List';
   imageWidth=75;

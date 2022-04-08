@@ -6,7 +6,7 @@
       "description": "Dashboard to monitor Weather.",
       "languages": "Javascript, HTML, CSS",
       "resources": "npm, express, node, anime.js, weather api",
-      "imageUrl": "./assets/images/weather_dashboard_SS_1.jpg",
+      "imageUrl": "./assets/images/weather_dashboard_SS_1.png",
       "github": "https://github.com/FenixS83/weather-dashboard",
       "deployedLink":"https://fenixs83.github.io/weather-dashboard/"
     }
