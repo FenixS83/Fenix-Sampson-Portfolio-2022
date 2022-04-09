@@ -10,14 +10,16 @@ import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 import { ProjectDetailGuard } from './project-details/project-detail.guard';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
-// import { MatProgressBar } from '@angular/material/progress-bar';
+
+
+
 
 @NgModule({
   declarations: [
@@ -50,7 +52,7 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     RouterTestingModule,
     BrowserAnimationsModule,
-    // MatProgressBar
+    ReactiveFormsModule
 
   ],
 

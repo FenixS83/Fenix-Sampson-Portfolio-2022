@@ -1,4 +1,10 @@
+<button class='btn btn-outline-secondary'
+    style='width:80px'
+    (click)='onBack()'>
+        <i class='fa fa-chevron-left'></i> Back
+</button>
 <div class='projectDetailsCard'>
+
 
     <div class='projectDetailsHeader'>
         <h3>Project Details</h3>
@@ -9,34 +15,34 @@
             <div class='col-md-8'>
 
                 <div class='row'>
-                    <div class='col-md-4'>Title:</div>
+                    <div class='col-md-3'>Title:</div>
                     <div class='col-md-8'>{{project.projectTitle}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Date Created:</div>
+                    <div class='col-md-3'>Date Created:</div>
                     <div class='col-md-8'>{{project.creationDate}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Description:</div>
+                    <div class='col-md-3'>Description:</div>
                     <div class='col-md-8'>{{project.description}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Languages Used:</div>
+                    <div class='col-md-3'>Languages Used:</div>
                     <div class='col-md-8'>{{project.languages}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Additional Resources:</div>
+                    <div class='col-md-3'>Resources:</div>
                     <div class='col-md-8'>{{project.resources}}</div>
                 </div>
                 <div class='row'>
-                    <div class='col-md-4'>Github Repository:</div>
+                    <div class='col-md-3'>Github Repo:</div>
                     <a href={{project.github}}>
                         <div class='col-md-8'>{{project.github}}</div>
                     </a>
                 </div>
-
+                    
                 <div class='row'>
-                    <div class='col-md-4'>Deployed Link:</div>
+                    <div class='col-md-3'>Deployed Link:</div>
                     <a href={{project.deployedLink}}>
                         <div class='col-md-8'>{{project.deployedLink}}</div>
                     </a>
@@ -55,11 +61,5 @@
         </div>
     </div>
 
-    <div class='card-footer'>
-        <button class='btn btn-outline-secondary'
-                style='width:80px'
-                (click)='onBack()'>
-          <i class='fa fa-chevron-left'></i> Back
-        </button>
-      </div>
+
 </div>

@@ -5,6 +5,7 @@
 
 
 .businessCard {
+    border: 1px solid #adaba8;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

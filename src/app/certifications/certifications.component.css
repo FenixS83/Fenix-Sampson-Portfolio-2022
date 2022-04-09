@@ -2,13 +2,53 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 5vh;
+    margin-top: 1vh;
+}
+
+.proficienciesBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.proficienciesHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -2vw;
+}
+
+
+.frontEndProficiencies {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1vh;
+    margin-left: 5vw;
+    width: 30vw;
+}
+
+.backEndProficiencies {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -46vh;
+    margin-left: 55vw;
+    width: 30vw;
+}
+
+.certificationsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -2vw;
 }
 
 .certificateImage {
     width: 50vw;
     margin-left: 30vw;
-    margin-top: -10vh;
+    margin-top: 0vh;
     margin-bottom: 30vh;
     border: 1px solid black;
 }

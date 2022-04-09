@@ -1,5 +1,19 @@
 .projectsListCard {
-    margin-top: 5vh;
+    margin-top: 1vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1vw;
+}
+
+tr > th {
+    text-align: center;
+}
+
+tr > td {
+    padding: 0.5vw;
 }
 
 .projectThumbnail {
