@@ -1,0 +1,59 @@
+[
+    {
+        "certificateId": "1",
+        "organization": "The University of Central Florida",
+        "topic": "Full Stack Web Development",
+        "issuedDate": "12/07/2022",
+        "certificateImage": "./assets/images/UCFcertificate.png"
+
+    },
+    {
+        "certificateId": "2",
+        "organization": "SoloLearn",
+        "topic": "HTML",
+        "issuedDate": "Aug 03, 2021",
+        "certificateImage": "./assets/images/certificateImages/SoloLearn_HTML.png"
+
+    },
+    {
+        "certificateId": "3",
+        "organization": "SoloLearn",
+        "topic": "CSS",
+        "issuedDate": "Aug 22, 2021",
+        "certificateImage": "./assets/images/certificateImages/SoloLearn_CSS.png"
+
+    },
+    {
+        "certificateId": "4",
+        "organization": "SoloLearn",
+        "topic": "JavaScript",
+        "issuedDate": "Aug 27, 2021",
+        "certificateImage": "./assets/images/certificateImages/SoloLearn_Javascript.png"
+
+    },
+    {
+        "certificateId": "5",
+        "organization": "SoloLearn",
+        "topic": "jQuery",
+        "issuedDate": "Aug 31, 2021",
+        "certificateImage": "./assets/images/certificateImages/SoloLearn_jQuery.png"
+
+    },
+    {
+        "certificateId": "6",
+        "organization": "SoloLearn",
+        "topic": "SQL",
+        "issuedDate": "July 29, 2021",
+        "certificateImage": "./assets/images/certificateImages/SoloLearn_SQL.png"
+
+    },
+    {
+        "certificateId": "7",
+        "organization": "SoloLearn",
+        "topic": "React/Redux",
+        "issuedDate": "September 02, 2021",
+        "certificateImage": "src/assets/images/certificateImages/SoloLearn_ReactRedux.png"
+
+    }
+
+]

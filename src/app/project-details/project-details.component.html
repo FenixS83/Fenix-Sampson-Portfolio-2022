@@ -53,9 +53,10 @@
 
 
             <div class='col-md-4'>
-                <img src='../../assets/images/weather_dashboard_SS_1.png' 
-                    title='Weather Dashboard'
-                    class='projectImage'>
+                <img [src]='project.imageUrl' 
+                    [title]='project.projectTitle | uppercase'
+                    [alt]='project.projectTitle'
+                    class='projectImage'/>
             </div>
 
         </div>

@@ -1,9 +1,11 @@
-.projectsListCard {
+.projectListCard {
+    width: 94vw;
     margin-top: 1vh;
+    margin-left: -6vw;
 }
 
-table {
-    width: 100%;
+.projectsListTable {
+    width: 90vw;
     border-collapse: separate;
     border-spacing: 1vw;
 }
@@ -14,8 +16,14 @@ tr > th {
 
 tr > td {
     padding: 0.5vw;
+    text-align: full-justify;
+}
+
+.description {
+    width: 500px;
 }
 
 .projectThumbnail {
-    width: 5vw;
+    width: 20vw;
+    border: 1px solid #adaba8;
 }

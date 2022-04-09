@@ -6,7 +6,7 @@
       "description": "I used a weather Api to create a functioning weather dashboard that shows the current weather and the 5 day forecast. I used the OpenWeatherMap API, the Bootstrap framework and the jQuery library to create the functionality.",
       "languages": "Javascript, HTML, CSS",
       "resources": "OpenWeatherMap API, Bootstrap, jQuery",
-      "imageUrl": "./assets/images/weather_dashboard_SS_1.png",
+      "imageUrl": "./assets/images/projectImages/weather_dashboard_SS_1.png",
       "github": "https://github.com/FenixS83/weather-dashboard",
       "deployedLink":"https://fenixs83.github.io/weather-dashboard/"
     },
@@ -17,8 +17,129 @@
       "description": "I used Express.js and Node.js to create a Note Taker application that can be used to read, write, save and delete notes.",
       "languages": "Javascript, HTML, CSS",
       "resources": "Express.js, Node.js",
-      "imageUrl": "./assets/images/note_taker_landing_page.png",
+      "imageUrl": "./assets/images/projectImages/note_taker_landing_page.png",
       "github": "https://github.com/FenixS83/note-taker",
       "deployedLink":"https://fenix-sampson-note-taker.herokuapp.com/"
+    },
+    {
+      "projectId": 3,
+      "projectTitle": "All Things Pets",
+      "creationDate": "Oct 28, 2021",
+      "description": "This was a group project that involved creating a pet based API from scratch and using it to create a pet integration app.",
+      "languages": "JavaScript, HTML, CSS",
+      "resources": "Handelbars.js, AKC, Dog Time, Google, Daily Paws, Mindly, Wamiz",
+      "imageUrl": "./assets/images/projectImages/all_things_pets_Homepage.png",
+      "github": "https://github.com/gabrielcalk/all_things_pets",
+      "deployedLink":"https://vast-retreat-92642.herokuapp.com/"
+    },
+    {
+      "projectId": 4,
+      "projectTitle": "Budget Tracker",
+      "creationDate": "Nov 18, 2021",
+      "description": "A simple budget tracker application that allows for offline access and functionality.",
+      "languages": "HTML, CSS, JS",
+      "resources": "Express.js, MongoDB",
+      "imageUrl": "./assets/images/projectImages/budget_tracker_1.png",
+      "github": "https://github.com/FenixS83/budget-tracker",
+      "deployedLink":"https://sheltered-earth-47925.herokuapp.com/"
+    },
+        {
+      "projectId": 5,
+      "projectTitle": "Workout Tracker",
+      "creationDate": "Nov 14, 2021",
+      "description": "A simple workout tracker application that allows you to to keep track of your exercises.",
+      "languages": "HTML, CSS, JS",
+      "resources": "MongoDB, Mongoose, Express.js",
+      "imageUrl": "./assets/images/projectImages/workout-tracker-dashboard.png",
+      "github": "https://github.com/FenixS83/workout-tracker",
+      "deployedLink":"https://guarded-earth-38168.herokuapp.com/?id=619464fe03c8840016ec07a7"
+    },
+        {
+      "projectId": 6,
+      "projectTitle": "Hungr",
+      "creationDate": "Nov 30, 2021",
+      "description": "A group created project that allows you to choose your favorite restaurant and send them to friends in order to aid in dining plans.",
+      "languages": "HTML, CSS, JS",
+      "resources": "React.js, Bootstrap",
+      "imageUrl": "./assets/images/projectImages/hungr_Homepage.png",
+      "github": "https://github.com/gabrielcalk/hungr",
+      "deployedLink":"https://hungr-project.herokuapp.com/"
+    },
+        {
+      "projectId": 7,
+      "projectTitle": "MVC Tech Blog",
+      "creationDate": "Oct 30, 2021",
+      "description": "CMS-style blog site that allows you to create, view, edit and delete blog posts.",
+      "languages": "HTML, CSS, JS",
+      "resources": "Handlebars.js, Bootstrap, JawsDB, Express.js, Dotenv, GoogleFonts",
+      "imageUrl": "./assets/images/projectImages/tech_blog_login.png",
+      "github": "https://github.com/FenixS83/MVC-Tech-Blog",
+      "deployedLink":"https://fenix-sampson-tech-blog.herokuapp.com/"
+    },
+        {
+      "projectId": 8,
+      "projectTitle": "E-Commerce Back-end",
+      "creationDate": "Oct 28, 2021",
+      "description": "Back-end for a E-Commerce site that allows you to create, view, edit and delete products.",
+      "languages": "JS",
+      "resources": "Express.js, MsSQL, JSON, Sequelize, Insomnia",
+      "imageUrl": "./assets/images/projectImages/ecommerce_backend_productProductTagCategoryDiagram.png",
+      "github": "https://github.com/FenixS83/E-Commerce-Back-End",
+      "deployedLink":"https://www.youtube.com/watch?v=6rdc226lT4k"
+    },
+        {
+      "projectId": 9,
+      "projectTitle": "Employee Tracker",
+      "creationDate": "Oct 23, 2021",
+      "description": "A commmand line application used to track and manage employees.",
+      "languages": "JS",
+      "resources": "Node.js, MySql, MySql2, Figlet, Inquirer, Sequelize, Dotenv",
+      "imageUrl": "./assets/images/projectImages/employee_tracker_start.png",
+      "github": "https://github.com/FenixS83/employee-tracker",
+      "deployedLink":"https://www.youtube.com/watch?v=itDD6llxDMM"
+    },
+        {
+      "projectId": 10,
+      "projectTitle": "Pop Culture Quiz",
+      "creationDate": "Sept 25, 2021",
+      "description": "A simple multiple choice quiz that utilizes local storage to test your knowledge of various pop culture franchises.",
+      "languages": "HTML, CSS, JS",
+      "resources": "n/a",
+      "imageUrl": "./assets/images/projectImages/pop_culture_quiz_SS_1.png",
+      "github": "https://github.com/FenixS83/pop-culture-quiz",
+      "deployedLink":"https://fenixs83.github.io/pop-culture-quiz/"
+    },
+        {
+      "projectId": 11,
+      "projectTitle": "Work Day Scheduler",
+      "creationDate": "Sept 29, 2021",
+      "description": "A simple calendar application that allows the user to save events for each hour of the day.",
+      "languages": "HTML, CSS, JS",
+      "resources": "JQuery, Moment.js, Bootstrap",
+      "imageUrl": "./assets/images/projectImages/work-day-scheduler.png",
+      "github": "https://github.com/FenixS83/work-day-scheduler",
+      "deployedLink":"https://fenixs83.github.io/work-day-scheduler/"
+    },
+        {
+      "projectId": 12,
+      "projectTitle": "Team Profile Generator",
+      "creationDate": "Oct 16, 2021",
+      "description": "A command line application that takes in information about employees and then generates an HTML webpage that displays summary.",
+      "languages": "JS",
+      "resources": "Node.js, Inquirer, Jest",
+      "imageUrl": "./assets/images/projectImages/team_profile_generator.png",
+      "github": "https://github.com/FenixS83/team_profile_generator",
+      "deployedLink":"https://www.youtube.com/watch?v=YTDNn8mOvkI"
+    },
+        {
+      "projectId": 13,
+      "projectTitle": "ReadMe Generator",
+      "creationDate": "Oct 13, 2021",
+      "description": "A command line application that takes in infomation and then generates a readme.md file.",
+      "languages": "JS",
+      "resources": "Shields.io, Node.js, Inquirer",
+      "imageUrl": "./assets/images/projectImages/readme_generator.png",
+      "github": "https://github.com/FenixS83/readme-generator",
+      "deployedLink":"https://www.youtube.com/watch?v=TjU0fucVnOM"
     }
 ]
