@@ -1,8 +1,9 @@
 .about-container {
-    height: 63vh;
+    height: 56vh;
     display: flex;
     align-items: top;
     justify-content: flex-start;
+    padding-bottom: 25vh;
 
 }
 

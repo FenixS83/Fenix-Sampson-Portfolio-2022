@@ -5,9 +5,9 @@
     justify-content: flex-start;
 }
 
-.btn {
+button {
     background-color: #adaba8;
-    color: #000000;
+    color: black;
     margin-left: 65vw;
     margin-top: -7vh;
 }

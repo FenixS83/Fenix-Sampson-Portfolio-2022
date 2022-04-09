@@ -7,3 +7,12 @@ img {
     margin-right: 6vw;
     margin-left: 1vw;
 }
+
+.container {
+    height: 56vh;
+    padding-bottom: 24vh;
+}
+
+.empty {
+    height: 34vh;
+}
