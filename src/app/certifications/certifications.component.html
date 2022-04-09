@@ -41,22 +41,25 @@
         <div class='certificationsHeader'>
             <h3>Certifications</h3>
         </div>
-        <div class='certifications'>
-            <a href="../../assets/images/certificateImages/UCFcertificate.png">
-                <img src="../../assets/images/certificateImages/UCFcertificate.png" 
-                title="UCF Full-Stack Coding Bootcamp"
-                class='certificateImage'/>
+        <br>
+        <div class='certifications' *ngFor='let certificate of certificate'>
+            <a [href]='certificate.certificateImage'>
+                <img [src]='certificate.certificateImage'
+                     [title]='certificate.organization | uppercase'
+                     [alt]='certificate.organization'
+                    class='certificateImage'/>
             </a>
             <br>
             <div class='issuedBy'>Issued by:</div>
-            <div class='organization'>University of Central Florida</div>
+            <div class='organization'>{{certificate.organization}}</div>
             <br>
             <br>
             <div class='focusArea'>Topic of focus:</div>
-            <div class='topic'>Full Stack Web Development</div>
+            <div class='topic'>{{certificate.topic}}</div>
             <br>
             <div class='certificationDate'>Date of Certification:</div>
-            <div class='date'>December 07, 2021</div>
+            <div class='date'>{{certificate.issuedDate}}</div>
+            <hr>
         </div>
     </div>
 </div>
