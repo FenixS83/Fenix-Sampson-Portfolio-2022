@@ -1,15 +1,18 @@
 .resume-container {
-    height: 56vh;
     margin-top: 7vh;
     align-items: top;
     justify-content: flex-start;
 }
 
 button {
+    border: 1px solid #5171ff; 
     background-color: #adaba8;
-    color: black;
     margin-left: 65vw;
     margin-top: -7vh;
+}
+
+.printableVersion {
+    color: #212121;
 }
 
 a {

@@ -10,6 +10,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 30vw;
-    margin-left: 50vw;
-    margin-top: -30vh;
+    /* margin-left: 50vw;
+    margin-top: -30vh; */
+    float: right;
 }

@@ -1,15 +1,14 @@
 .about-container {
-    height: 56vh;
+    /* height: 56vh; */
     display: flex;
     align-items: top;
     justify-content: flex-start;
-    padding-bottom: 25vh;
 
 }
 
 .about {
     font-size: 20px;
     margin-left: 5vw;
-    margin-top: 7vh;
+    margin-top: 5vh;
 }
 

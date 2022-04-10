@@ -1,13 +1,15 @@
 .projectDetailsCard {
-    margin-top: -5vh;
+    margin-top: 3vh;
     margin-bottom: 5vh;
 }
 
 button {
+    float: right;
     background-color: #9f9d9d;
-    color: black;
-    margin-top: 1vh;
-    margin-left: -8vw;
+    color: #212121;
+    border: 1px solid #5171ff; 
+    margin-left: 80vw;
+    margin-top: -8vh;
 }
 
 .card-body {

@@ -1,17 +1,36 @@
 footer {
     background-color: #9f9d9d;
+    border-top: 4px solid #5171ff; 
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 3vh;
     height: 15vh;
 }
 
-.dark {
+.copyrightBar {
     color: #212121;
-    height: 16vh;
+    /* height: 16vh; */
     margin-top: -3vh;
     padding-top: 1vh;
     align-content: center;
+}
+
+
+.dark {
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.iconSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+}
+
+img {
+    width: 3.5vw;
+    margin-top: -5vh;
 }
 
