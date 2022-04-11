@@ -19,6 +19,12 @@ a {
     text-decoration: none;
 }
 
+.resumeTitle {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .categoryTitle {
     font-size: 20px;
     font-weight: bold;

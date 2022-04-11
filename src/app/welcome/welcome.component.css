@@ -5,8 +5,13 @@
 
 }
 
+h4 {
+    text-align: center;
+}
+
 .briefBio {
-    font-size: 28px;
-    margin-left: 20vw;
+    font-size: 20px;
+    margin-left: 10vw;
     margin-top: 10vh;
+    text-align: center;
 }
