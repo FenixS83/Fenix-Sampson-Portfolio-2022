@@ -5,11 +5,11 @@
 
 button {
     float: right;
+    margin-right: -35vw;
+    margin-top: 10vh;
     background-color: #9f9d9d;
     color: #212121;
     border: 1px solid #5171ff; 
-    margin-left: 80vw;
-    margin-top: -8vh;
 }
 
 .card-body {

@@ -26,11 +26,33 @@
     margin-top: 1vh;
 }
 
+.progressBar {
+    float: right;
+    height: 30px;
+    width: 150px;
+    background-color: #545455;
+    border: 2px solid #5ae0e5;
+}
+
+.progressBarFill {
+    height: 100%;
+    background-color: #5371ff;
+    color: #dcdcde;
+    font-size: small;
+}
+
+span {
+    margin: auto;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
 .frontEndProficiencies {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 7vw;
     width: 30vw;
 }
 
@@ -40,8 +62,12 @@
     flex-direction: column;
     justify-content: space-around;
     /* margin-top: -51vh; */
-    margin-left: 30vw;
+    margin-left: 20vw;
     width: 30vw;
+}
+
+hr {
+    border-top: 4px solid #5171ff;
 }
 
 .certificationsHeader {
@@ -54,7 +80,7 @@
 .certificateImage {
     float: right;
     width: 45vw;
-    margin-top: 3vh;
+    margin-top: 2vh;
     margin-bottom: 3vh;
     border: 1px solid black;
 }

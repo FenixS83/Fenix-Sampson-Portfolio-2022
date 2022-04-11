@@ -30,14 +30,17 @@
                     <div class='col-md-3'>Resources:</div>
                     <div class='col-md-8'>{{project.resources}}</div>
                 </div>
-                <br>
+                <button class='btn btn-outline-secondary'
+                        style='width:80px'
+                        (click)='onBack()'>
+                    <i class='fa fa-chevron-left'></i> Back
+                </button>
                 <div class='row'>
                     <div class='col-md-3'>Github Repo:</div>
                     <a href={{project.github}}>
                         <div class='col-md-8'>{{project.github}}</div>
                     </a>
                 </div>
-                <br>
                 <div class='row'>
                     <div class='col-md-3'>Deployed Link:</div>
                     <a href={{project.deployedLink}}>
@@ -57,11 +60,6 @@
             </div>
 
         </div>
-        <button class='btn btn-outline-secondary'
-                style='width:80px'
-                (click)='onBack()'>
-            <i class='fa fa-chevron-left'></i> Back
-        </button>
     </div>
 
 
