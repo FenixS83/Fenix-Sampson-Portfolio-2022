@@ -1,7 +1,7 @@
 .projectListCard {
-    width: 94vw;
-    margin-top: 1vh;
-    margin-left: -6vw;
+    width: 92vw;
+    margin-top: 5vh;
+    margin-left: -2vw;
 }
 
 .projectsListTable {
@@ -18,7 +18,11 @@ tr > th {
 
 tr > td {
     padding: 0.5vw;
-    text-align: full-justify;
+    text-align: center;
+}
+
+.date {
+    width: 15vw;
 }
 
 .description {
