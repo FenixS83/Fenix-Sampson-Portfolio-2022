@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   pageTitle : string = 'Huston "Fenix" Sampson';
-  title = 'angular-portfolio';
+  title = 'fenix-sampson-portfolio-2022';
 }
