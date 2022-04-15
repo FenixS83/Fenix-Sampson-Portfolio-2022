@@ -8,16 +8,10 @@ import { SelfieComponent } from './selfie/selfie.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
-import { ResumeComponent } from './resume/resume.component';
-import { ProjectsListComponent } from './projects-list/projects-list.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterTestingModule } from '@angular/router/testing';
-import { ProjectDetailsComponent } from './project-details/project-details.component';
-import { ProjectDetailGuard } from './project-details/project-detail.guard';
-import { CertificationsComponent } from './certifications/certifications.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ContactComponent } from './contact/contact.component';
-
+import { ProjectModule } from './projects-module/project/project.module';
+import { ResumeModule } from './resume-pieces-module/resume/resume.module';
 
 
 
@@ -27,12 +21,7 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     SelfieComponent,
     WelcomeComponent,
-    AboutComponent,
-    ResumeComponent,
-    ProjectsListComponent,
-    ProjectDetailsComponent,
-    CertificationsComponent,
-    ContactComponent,
+    AboutComponent
 
   ],
   imports: [
@@ -43,23 +32,19 @@ import { ContactComponent } from './contact/contact.component';
       { path: '', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'selfie', component: SelfieComponent },
-      { path: 'resume', component: ResumeComponent },
-      { path: 'projects', component: ProjectsListComponent },
-      { path: 'projects/:id', component: ProjectDetailsComponent, canActivate: [ProjectDetailGuard] },
-      { path: 'certifications', component: CertificationsComponent },
-      { path: 'contact', component: ContactComponent },
+
     ]),
-    FormsModule,
     RouterTestingModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ProjectModule,
+    ResumeModule,
 
   ],
 
   exports: [
   ],
 
-  providers: [RouterModule, ProjectDetailGuard],
+  providers: [RouterModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -14,3 +14,7 @@
     margin-top: -30vh; */
     float: right;
 }
+
+.contactCard__body__contact {
+    width: 45vw;
+}
