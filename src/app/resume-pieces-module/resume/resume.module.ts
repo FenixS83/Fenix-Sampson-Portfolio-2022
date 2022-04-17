@@ -5,7 +5,8 @@ import { ResumeComponent } from 'src/app/resume/resume.component';
 import { CertificationsComponent } from 'src/app/certifications/certifications.component';
 import { ContactComponent } from 'src/app/contact/contact.component';
 import { RouterModule } from '@angular/router';
-
+import { PrintableResumeComponent } from 'src/app/printable-resume/printable-resume.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 
 
@@ -14,14 +15,17 @@ import { RouterModule } from '@angular/router';
     ResumeComponent,
     CertificationsComponent,
     ContactComponent,
+    PrintableResumeComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
+    PdfViewerModule,
     RouterModule.forChild([
       { path: 'resume', component: ResumeComponent },
       { path: 'certifications', component: CertificationsComponent },
       { path: 'contact', component: ContactComponent },
+      { path: 'printable-resume', component: PrintableResumeComponent },
     ]),
   ],
 

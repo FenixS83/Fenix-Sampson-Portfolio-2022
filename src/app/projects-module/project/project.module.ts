@@ -20,7 +20,7 @@ import { RouterModule } from '@angular/router';
       { path: 'projects/:id', 
         canActivate: [ProjectDetailGuard], 
       component: ProjectDetailsComponent,  
-      },
+      }
     ]),
   ],
   providers: [ProjectDetailGuard]
