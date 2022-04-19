@@ -67,6 +67,7 @@ li {
 }
 
 hr {
+    margin-top: 1vh;
     border: 4px solid #5171ff;
 }
 
@@ -79,7 +80,7 @@ hr {
 
 .certificateImage {
     float: right;
-    width: 45vw;
+    max-width: 600px;
     margin-top: 2vh;
     margin-bottom: 3vh;
     border: 1px solid black;
