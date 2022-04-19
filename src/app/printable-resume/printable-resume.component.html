@@ -1,11 +1,8 @@
+<!-- this area should display the rendered pdf  -->
 <div class="resume-container">
     <textarea [(ngModel)]= "pdfSource"></textarea>
-    <pdf-viewer 
-        [src]="pdfSource" 
-        [render-text]="true"
-        style="display: block;"
-        [original-size]="false"
-    >
-    </pdf-viewer>
+    <iframe id="resume-iframe" srcdoc="{{pdfSource}}"></iframe> 
+
+    
 
 </div>
