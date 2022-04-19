@@ -12,7 +12,6 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectModule } from './projects-module/project/project.module';
 import { ResumeModule } from './resume-pieces-module/resume/resume.module';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 
@@ -29,7 +28,6 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
   imports: [
     BrowserModule,
     HttpClientModule,
-    PdfViewerModule,
     AppRoutingModule,
     RouterModule.forRoot([
       { path: '', component: WelcomeComponent },
