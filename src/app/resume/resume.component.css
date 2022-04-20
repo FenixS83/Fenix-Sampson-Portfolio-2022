@@ -11,6 +11,10 @@ button {
     margin-top: -1vh;
 }
 
+button:hover {
+    box-shadow: -1px -1px 10px -1px rgba(81,113,255,0.5);
+}
+
 .printableVersion {
     color: #212121;
 }

@@ -12,6 +12,10 @@
     /* margin-bottom: 20vh; */
 }
 
+a {
+    text-decoration: none;
+}
+
 tr > th {
     text-align: center;
 }

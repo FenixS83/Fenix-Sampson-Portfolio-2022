@@ -15,6 +15,14 @@
     float: right;
 }
 
+.businessCard:hover {
+    box-shadow: -1px -1px 20px -1px rgba(81,113,255,0.5);
+}
+
 .contactCard__body__contact {
     width: 45vw;
+}
+
+a {
+    text-decoration: none;
 }

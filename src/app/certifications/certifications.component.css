@@ -86,6 +86,10 @@ hr {
     border: 1px solid black;
 }
 
+.certificateImage:hover {
+    box-shadow: -1px -1px 20px -1px rgba(81,113,255,0.5);
+}
+
 .issuedBy {
     font-size: 20px;
     font-weight: 300;

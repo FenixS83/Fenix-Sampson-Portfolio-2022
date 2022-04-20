@@ -6,7 +6,7 @@
 button {
     float: right;
     margin-right: -35vw;
-    margin-top: 10vh;
+    margin-top: 25vh;
     background-color: #9f9d9d;
     color: #212121;
     border: 1px solid #5171ff; 
@@ -29,4 +29,8 @@ button {
     width: 35vw;
     margin-left: -3vw;
     margin-top: -7vh;
+}
+
+a {
+    text-decoration: none;
 }
