@@ -8,15 +8,16 @@ footer {
 }
 
 .copyrightBar {
-    color: #212121;
     /* height: 16vh; */
     margin-top: -3vh;
     /* padding-top: 1vh; */
     align-content: center;
+    color: #212121;
 }
 
 
 .dark {
+    background-color: #7d7d7d;
     height: 4vh;
     position: absolute;
     bottom: 0;
@@ -26,12 +27,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* margin-top: 2vh; */
+    margin-top: -26px;
+    align-items: center;
 }
 
 img {
-    margin-top: -5vh;
     max-width: 35px;
-   align-items: center;
 }
 
