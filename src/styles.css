@@ -5,6 +5,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 body {
     background-color: #d3deed;
+    min-height: 100vh;
 }
 
 
