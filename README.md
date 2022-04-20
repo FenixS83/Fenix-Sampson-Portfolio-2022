@@ -6,7 +6,7 @@
 
   I used Angular to build a new personal portfolio
   
- Deployed Link: [HERE](https://huston-fenix-sampson.herokuapp.com/)
+ Deployed Link: [HERE](hustonfenixsampson.com)
 
   <!-- [URL](undefined) -->
 
