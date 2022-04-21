@@ -1,5 +1,5 @@
 .about-container {
-    /* height: 56vh; */
+    min-height: 100vh;
     display: flex;
     align-items: top;
     justify-content: flex-start;

@@ -14,13 +14,9 @@ img {
 }
 
 .container {
-    padding-bottom: 24vh;
+    padding-bottom: 13vh;
 }
 
 .nav-link {
     color: #212121;
-}
-
-.empty {
-    height: 26vh;
 }
