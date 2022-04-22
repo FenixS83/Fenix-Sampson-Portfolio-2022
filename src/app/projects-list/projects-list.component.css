@@ -1,15 +1,19 @@
 .projectListCard {
-    width: 90vw;
+    max-width: 90vw;
     margin-top: 5vh;
     margin-left: -2vw;
 }
 
 .projectsListTable {
-    width: 90vw;
+    max-width: 90vw;
     border-collapse: separate;
-    border-spacing: 1vw;
+    border-spacing: 5px;
 
-    /* margin-bottom: 20vh; */
+}
+
+.projectListSearch {
+    display: flex;
+    justify-content: flex-end;
 }
 
 a {
@@ -21,12 +25,12 @@ tr > th {
 }
 
 tr > td {
-    padding: 0.5vw;
+    padding: 3px;
     text-align: center;
 }
 
 .date {
-    width: 15vw;
+    width: 15%;
 }
 
 .description {
@@ -34,6 +38,6 @@ tr > td {
 }
 
 .projectThumbnail {
-    width: 20vw;
+    width: 300px;
     border: 1px solid #adaba8;
 }

@@ -1,7 +1,6 @@
 .welcome {
     display: flex;
-    align-items: top;
-    justify-content: flex-start;
+    justify-content: space-between;
 
 }
 

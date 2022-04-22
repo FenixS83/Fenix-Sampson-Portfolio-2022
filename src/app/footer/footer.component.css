@@ -27,7 +27,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: -26px;
+    margin-top: -25px;
     align-items: center;
 }
 
@@ -35,6 +35,3 @@ img {
     max-width: 35px;
 }
 
-a {
-    text-decoration: none;
-}

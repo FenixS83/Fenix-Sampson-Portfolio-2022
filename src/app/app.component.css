@@ -1,9 +1,17 @@
 nav {
    border-bottom: 4px solid #5171ff; 
+   justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 img {
     max-width: 100px;
+}
+
+ul {
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 #pageTitle {

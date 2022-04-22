@@ -121,7 +121,7 @@
         </div>
         <br>
         <div class='certifications' *ngFor='let certificate of certificate; last as isLast'>
-            <a [href]='certificate.certificateImage'>
+            <a [href]='certificate.certificateImage' target="_blank">
                 <img [src]='certificate.certificateImage'
                      [title]='certificate.organization | uppercase'
                      [alt]='certificate.organization'
