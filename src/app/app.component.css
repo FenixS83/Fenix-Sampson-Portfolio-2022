@@ -2,6 +2,7 @@ nav {
    border-bottom: 4px solid #5171ff; 
    justify-content: space-between;
    flex-wrap: wrap;
+   padding-right: 15px;
 }
 
 img {
