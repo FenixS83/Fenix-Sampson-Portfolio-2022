@@ -4,6 +4,11 @@
     margin-left: -2vw;
 }
 
+.projectListHeader {
+    margin-bottom: 5vh;
+    align-content: center;
+}
+
 .projectsListTable {
     max-width: 90vw;
     border-collapse: separate;
@@ -12,9 +17,20 @@
 }
 
 .projectListSearch {
-    display: flex;
-    justify-content: flex-end;
+    float: right;
+    width: 220px;
+    margin-top: -3vh;
 }
+
+.searchlabel {
+    align-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
 
 a {
     text-decoration: none;
@@ -25,7 +41,7 @@ tr > th {
 }
 
 tr > td {
-    padding: 3px;
+    padding: 7px;
     text-align: center;
 }
 
@@ -35,6 +51,10 @@ tr > td {
 
 .description {
     width: 500px;
+}
+
+.skillsUsed {
+    width: 250px;
 }
 
 .projectThumbnail {

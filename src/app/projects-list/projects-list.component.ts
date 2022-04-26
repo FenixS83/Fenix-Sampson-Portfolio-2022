@@ -35,7 +35,7 @@ export class ProjectsListComponent implements OnInit {
   performFilter(filterBy: string): IProject[] {
     filterBy = filterBy.toLocaleLowerCase();
     return this.projects.filter((project: IProject) =>
-      project.resources.toLocaleLowerCase().includes(filterBy));  
+      project.skillsUsed.toLocaleLowerCase().includes(filterBy));  
   }
 
 

@@ -1,5 +1,5 @@
 img {
+    display: flex;
     height: 56vh;
     margin: 20px;
-    float: right;
 }

@@ -3,9 +3,7 @@ export interface IProject {
     projectTitle: any;
     creationDate: string;
     description: string;
-    languages: string;
-    technologies: string;
-    resources: string;
+    skillsUsed: string;
     imageUrl: string;
     github: string;
     deployedLink: string;

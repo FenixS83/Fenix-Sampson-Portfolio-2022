@@ -1,11 +1,15 @@
 .welcome {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
 
 app-selfie {
+    order: 1;
     margin-top: 3vh;
+    float: left;
 }
 
 h4 {
@@ -17,6 +21,8 @@ p {
 }
 
 .briefBio {
+    max-width: 50%;
+    float: right;
     font-size: 20px;
     margin-left: 10vw;
     margin-top: 10vh;

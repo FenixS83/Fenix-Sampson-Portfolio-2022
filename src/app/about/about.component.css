@@ -1,9 +1,17 @@
 .about-container {
     min-height: 100vh;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: top;
     justify-content: flex-start;
 
+}
+
+app-selfie {
+    order: 1;
+    margin-top: 3vh;
+    float: right;
 }
 
 .about {

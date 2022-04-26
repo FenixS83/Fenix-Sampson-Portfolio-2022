@@ -3,17 +3,20 @@
     
     <div class='projectListHeader'>
         <h3>{{ pageTitle}}</h3>
-    </div>
-
-    <div class='projectListSearch'>
-        <div class='row'>
-            <div class='col-md-2'>Search Resources:</div>
-            <div class='col-md-4'>
-                <input type='text' 
-                    [(ngModel)]='listFilter'/>
+        <div class='projectListSearch'>
+            <div class='row'>
+                <div class='searchlabel'>
+                    <div class='col-md-4'>Search Skills:</div>
+                </div>
+    
+                <div class='col-md-4'>
+                    <input type='text' 
+                        [(ngModel)]='listFilter'/>
+                </div>
             </div>
         </div>
     </div>
+
     <br>
     <br>
     <div class='row'
@@ -32,8 +35,7 @@
                     <th class='title'>Title</th>
                     <th class='date'>Date Created:</th>
                     <th class='description'>Description</th>
-                    <th class='languages'>Languages</th>
-                    <th class='resources'>Resources</th>
+                    <th class='skillsUsed'>Skills Used:</th>
                 </tr>
             </thead>
 
@@ -61,12 +63,9 @@
                     </td>
 
                     <td>
-                        {{project.languages}}
+                        {{project.skillsUsed}}
                     </td>
 
-                    <td>
-                        {{project.resources}}
-                    </td>
 
                 </tr>
         </table>
