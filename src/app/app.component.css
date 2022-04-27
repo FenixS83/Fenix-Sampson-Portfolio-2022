@@ -43,8 +43,8 @@ ul {
     color: #d4deed;
     box-shadow: inset 100px 100px 100px 100px #5371ff, 0 0px 5px rgba(0,0,0,0.45);
     border-radius: 3px;
-    margin-left: 8px;
-    padding: 14px;
+    margin-left: 13px;
+    padding: 8px;
     transition: color 1s ease-in-out, box-shadow .5s ease-in-out;
 }
 
