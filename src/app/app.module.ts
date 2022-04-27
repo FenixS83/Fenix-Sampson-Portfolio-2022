@@ -31,6 +31,7 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     AppRoutingModule,
     RouterModule.forRoot([
       { path: '', component: WelcomeComponent },
+      { path: '*', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'selfie', component: SelfieComponent },
 
