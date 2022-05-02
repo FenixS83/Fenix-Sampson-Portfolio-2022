@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ProjectsListComponent } from 'src/app/projects-list/projects-list.component';
 import { ProjectDetailsComponent } from 'src/app/project-details/project-details.component';
@@ -23,6 +23,6 @@ import { RouterModule } from '@angular/router';
       }
     ]),
   ],
-  providers: [ProjectDetailGuard]
+  providers: [ProjectDetailGuard, {provide: LocationStrategy, useClass: HashLocationStrategy}]
 })
 export class ProjectModule { }

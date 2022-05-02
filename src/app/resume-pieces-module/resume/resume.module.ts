@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ResumeComponent } from 'src/app/resume/resume.component';
 import { CertificationsComponent } from 'src/app/certifications/certifications.component';
@@ -27,6 +27,6 @@ import { RouterModule } from '@angular/router';
     ]),
   ],
 
-  providers: [RouterModule],
+  providers: [RouterModule, {provide: LocationStrategy, useClass: HashLocationStrategy}],
 })
 export class ResumeModule { }
