@@ -24,7 +24,7 @@
     "projectTitle": "All Things Pets",
     "creationDate": "Oct 28, 2021",
     "description": "This was a group project that involved creating a pet based API from scratch and using it to create a pet integration app",
-    "skillsUsed": "HTML, CSS, JavaScript, Handelbars.js, AKC, Dog Time, Google, Daily Paws, Mindly, Wamiz",
+    "skillsUsed": "HTML, CSS, JavaScript, Handlebars.js, AKC, Dog Time, Google, Daily Paws, Mindly, Wamiz",
     "imageUrl": "./assets/images/projectImages/all_things_pets_Homepage.png",
     "github": "https://github.com/gabrielcalk/all_things_pets",
     "deployedLink":"https://vast-retreat-92642.herokuapp.com/"
