@@ -26,7 +26,7 @@
     margin-top: 1vh;
 }
 
-.progressBar {
+/* .progressBar {
     float: right;
     height: 30px;
     width: 150px;
@@ -34,19 +34,19 @@
     border: 2px solid #5ae0e5;
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
     border-radius: 10px;
-}
+} */
 
-.progressBarFill {
+/* .progressBarFill {
     height: 100%;
     background-color: #5371ff;
     border-radius: 10px;
     color: #dcdcde;
     font-size: small;
-}
+} */
 
-span {
+/* span {
     margin: auto;
-}
+} */
 
 li {
     margin-bottom: 6px;
@@ -54,9 +54,11 @@ li {
 
 .frontEndProficiencies {
     display: flex;
+    float: left;
     flex-direction: column;
     justify-content: space-around;
     width: 30vw;
+    margin-left: 10vw;
 }
 
 .backEndProficiencies {
@@ -65,8 +67,8 @@ li {
     flex-direction: column;
     justify-content: space-around;
     /* margin-top: -51vh; */
-    margin-left: 20vw;
     width: 30vw;
+    margin-right: -1vw;
 }
 
 hr {
