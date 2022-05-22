@@ -16,6 +16,7 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     SelfieComponent,
     WelcomeComponent,
     AboutComponent,
+
 
 
   ],

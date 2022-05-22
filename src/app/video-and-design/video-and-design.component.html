@@ -1,0 +1,99 @@
+
+<div class='certifications-card'>
+
+    <div class='proficienciesBody'>
+        <div class='proficienciesHeader'>
+            <h3>Media Proficiencies</h3>
+        </div>
+        <div class='proficienciesSection'>
+
+            <div class='avProficiencies'>
+                <h3>Audio/Video Software:</h3>
+                <ul className="skills">
+                    <li>LumaFusion
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
+                        </div> -->
+                    </li>
+                    <li>Adobe Premiere Pro
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
+                        </div> -->
+                    </li>
+                    <li>Filmora
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:50%'><p>Moderate</p></div>
+                        </div> -->
+                    </li>
+                    <li>GarageBand
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:60%'><p>Intermediate</p></div>
+                        </div> -->
+                    </li>
+                </ul>
+            </div>
+            <div class='designProficiencies'>
+                <h3>Design Software:</h3>
+                <ul className="skills">
+                    <li>Adobe Illustrator
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
+                        </div> -->
+                    </li>
+                    <li>Adobe Photoshop
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
+                        </div> -->
+                    </li>
+                    <li>Adobe XD
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:20%'><p>Beginner</p></div>
+                        </div> -->
+                    </li>
+                    <li>Canva
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:50%'><p>Moderate</p></div>
+                        </div> -->
+                    </li>
+                    <li>VisualDesigner
+                        <!-- <div class='progressBar'>
+                            <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
+                        </div> -->
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    <hr>
+    <div class='videosBody'>
+        <div class='videosHeader'>
+            <h3>Videos:</h3>
+            <p>(Clicking on an image will open video in new tab)</p>
+        </div>
+        <br>
+        <div class='videos' *ngFor='let video of video; last as isLast'>
+            <a [href]='video.videoURL' target="_blank">
+                <img [src]='video.videoImage'
+                     [title]='video.organization | uppercase'
+                     [alt]='video.organization'
+                    class='videoImage'/>
+            </a>
+            <br>
+            <div class='createdfor'>Created For:</div>
+            <div class='organization'>{{video.organization}}</div>
+            <br>
+            <br>
+            <div class='projectTitle'>Title:</div>
+            <div class='title'>{{video.title}}</div>
+            <br>
+            <br>
+            <div class='softwaresUsed'>Softwares Used:</div>
+            <div class='software'>{{video.software}}</div>
+            <br>
+            <div class='projectNotes'>Project Notes:</div>
+            <div class='notes'>{{video.notes}}</div>
+            <hr *ngIf="!isLast">
+        </div>
+    </div>
+</div>
+
