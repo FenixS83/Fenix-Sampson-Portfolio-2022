@@ -64,11 +64,12 @@
                 
             </div>
         </div>
+        <br>
     <hr>
     <div class='videosBody'>
         <div class='videosHeader'>
-            <h3>Videos:</h3>
-            <p>(Clicking on an image will open video in new tab)</p>
+            <h3>Multimedia:</h3>
+            <!-- <p>(Clicking on an image will open video in new tab)</p> -->
         </div>
         <br>
         <div class='videos' *ngFor='let video of video; last as isLast'>
@@ -84,7 +85,7 @@
             <br>
             <br>
             <div class='projectTitle'>Title:</div>
-            <div class='title'>{{video.title}}</div>
+            <div class='title'><a [href]='video.videoURL' target="_blank">{{video.title}}</a></div>
             <br>
             <br>
             <div class='softwaresUsed'>Softwares Used:</div>
