@@ -1,4 +1,4 @@
-.about-container {
+/* .about-container {
     min-height: 100vh;
     display: flex;
     flex-direction: row;
@@ -6,19 +6,19 @@
     align-items: top;
     justify-content: flex-start;
 
-}
+} */
 
-app-selfie {
+/* app-selfie {
     order: 1;
     margin-top: 3vh;
     float: right;
-}
+} */
 
-.about {
+/* .about {
     font-size: 20px;
     margin-left: 5vw;
     margin-top: 5vh;
-}
+} */
 
 hr {
     border: 4px solid #5171ff;
@@ -26,7 +26,7 @@ hr {
     border-radius: 10px;
 }
 
-.soon {
+/* .soon {
     font-size: 28px;
     text-align: center;
-}
+} */
