@@ -1,12 +1,12 @@
-.resume-container {
+/* .resume-container {
     margin-top: 5vh;
     align-items: top;
     justify-content: flex-start;
-}
+} */
 
 button {
     border: 1px solid #5171ff; 
-    float: right;
+    /* float: right; */
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
     border-radius: 10px;
     /* background-color: #adaba8; */
@@ -15,10 +15,10 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
-    margin-top: -9vh;
-    margin-right: 9vw;
-    width: 96px;
-    height: 124px;
+    /* margin-top: -9vh;
+    margin-right: 9vw; */
+    /* width: 96px; */
+    /* height: 124px; */
 }
 
 span {
@@ -28,34 +28,34 @@ span {
 
 
 button:hover {
-    box-shadow: -1px -1px 10px -1px rgba(81,113,255,0.5);
+    box-shadow: -1px -1px 15px -1px rgba(81,113,255,0.5);
 }
 
-.printableVersion {
+/* .printableVersion {
     color: #212121;
-}
+} */
 
-a {
+/* a {
     text-decoration: none;
-}
+} */
 
-.resumeTitle {
+/* .resumeTitle {
     text-align: center;
-}
+} */
 
-.categoryTitle {
+/* .categoryTitle {
     font-size: 20px;
     font-weight: bold;
     margin-top: 2vh;
     margin-bottom: 2vh;
-}
+} */
 
-.resumeCategory {
+/* .resumeCategory {
     font-size: 24px;
     font-weight: bold;
     margin-top: 2vh;
     margin-bottom: 2vh;
-}
+} */
 
 
 ul {
