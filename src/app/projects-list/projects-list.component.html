@@ -1,19 +1,18 @@
 
-<div class='projectListCard'>
+<div class='container my-5'>
     
-    <div class='projectListHeader'>
-        <h3>{{ pageTitle}}</h3>
-        <div class='projectListSearch'>
-            <div class='row'>
-                <div class='searchlabel'>
-                    <div class='col-md-4'>Search Skills List:</div>
+    <h3>{{ pageTitle}}</h3>
+    <div class="row justify-content-end">
+        <div class='input-group col-md-4 justify-content-end'>
+            <!-- <div class='input-group-text'>Search Skills List:</div> -->
+            <input type='text' class="col-md-4  text-center" aria-label="Search Skills List" placeholder="Search Skills List:" [(ngModel)]='listFilter'/>
+<!--             
+                <div class='searchlabel float-end'>
                 </div>
     
                 <div class='col-md-4'>
-                    <input type='text' 
-                        [(ngModel)]='listFilter'/>
-                </div>
-            </div>
+                </div> -->
+            
         </div>
     </div>
 
@@ -27,15 +26,20 @@
     </div>
 
     <div class='table-responsive'>
-        <table class='projectsListTable'>
+        <table class='table'>
             
             <thead>
                 <tr>
-                    <th class='thumbnail'>Thumbnail</th>
+                    <th scope='col'>Thumbnail</th>
+                    <th scope='col'>Title</th>
+                    <th scope='col'>Date Created:</th>
+                    <th scope='col'>Description</th>
+                    <th scope='col'>Skills Used:</th>
+                    <!-- <th class='thumbnail'>Thumbnail</th>
                     <th class='title'>Title</th>
                     <th class='date'>Date Created:</th>
                     <th class='description'>Description</th>
-                    <th class='skillsUsed'>Skills Used:</th>
+                    <th class='skillsUsed'>Skills Used:</th> -->
                 </tr>
             </thead>
 

@@ -1,9 +1,15 @@
 
-<div class='projectDetailsCard'>
-
-
-    <div class='projectDetailsHeader'>
-        <h3>Project Details</h3>
+<div class='container my-5'>
+    
+    
+    <h3>Project Details</h3>
+    <!-- <div class='projectDetailsHeader'>
+    </div> -->
+    <div class='col-md-4 float-end'>
+        <img [src]='project.imageUrl' 
+            [title]='project.projectTitle | uppercase'
+            [alt]='project.projectTitle'
+            class='projectImage col-md-4'/>
     </div>
 
     <div class='card-body'>
@@ -52,12 +58,6 @@
             </div>
 
 
-            <div class='col-md-4'>
-                <img [src]='project.imageUrl' 
-                    [title]='project.projectTitle | uppercase'
-                    [alt]='project.projectTitle'
-                    class='projectImage'/>
-            </div>
 
         </div>
     </div>
