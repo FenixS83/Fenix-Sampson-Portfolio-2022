@@ -1,30 +1,30 @@
-.certifications-card {
+/* .certifications-card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 5vh;
     margin-bottom: 24vh;
-}
+} */
 
-.proficienciesBody {
+/* .proficienciesBody {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.proficienciesHeader {
+/* .proficienciesHeader {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-left: -2vw;
-}
+} */
 
-.proficienciesSection {
+/* .proficienciesSection {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1vh;
-}
+} */
 
 /* .progressBar {
     float: right;
@@ -49,9 +49,10 @@
 } */
 
 li {
-    margin-bottom: 6px;
+    background-color: #9f9d9d;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
 }
-
+/* 
 .frontEndProficiencies {
     display: flex;
     float: left;
@@ -59,17 +60,17 @@ li {
     justify-content: space-around;
     width: 30vw;
     margin-left: 10vw;
-}
-
+} */
+/* 
 .backEndProficiencies {
     display: flex;
     float: right;
     flex-direction: column;
     justify-content: space-around;
-    /* margin-top: -51vh; */
+    margin-top: -51vh;
     width: 30vw;
     margin-right: -1vw;
-}
+} */
 
 hr {
     margin-top: 1vh;
@@ -78,18 +79,18 @@ hr {
     border-radius: 10px;
 }
 
-.certificationsHeader {
+/* .certificationsHeader {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-left: -2vw;
-}
+} */
 
-.certificateImage {
-    float: right;
-    max-width: 600px;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+.img {
+    /* float: right; */
+    /* max-width: 600px; */
+    /* margin-top: 2vh; */
+    /* margin-bottom: 3vh; */
     border: 1px solid black;
     box-shadow: inset 0 3px 7px rgba(0,0,0,0.16), 0 0px 9px rgba(0,0,0,0.45);
     border-radius: 5px;
@@ -99,37 +100,37 @@ hr {
     box-shadow: -1px -1px 20px -1px rgba(81,113,255,0.5);
 }
 
-.issuedBy {
+/* .issuedBy {
     font-size: 20px;
     font-weight: 300;
     margin-top: 2vh;
-}
+} */
 
-.organization {
+/* .organization {
     font-size: 24px;
     font-weight: 450;
     text-align: justify;
-}
+} */
 
-.focusArea {
+/* .focusArea {
     font-size: 20px;
     font-weight: 300;
-}
+} */
 
-.topic {
+/* .topic {
     font-size: 24px;
     font-weight: 500;
     text-align: justify;
-}
+} */
 
-.certificationDate {
+/* .certificationDate {
     font-size: 20px;
     font-weight: 300;
-}
+} */
 
-.date {
+/* .date {
     font-size: 24px;
     font-weight: 500;
     text-align: justify;
     margin-bottom: 24vh;
-}
+} */

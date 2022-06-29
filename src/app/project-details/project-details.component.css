@@ -15,17 +15,17 @@ button {
     border-radius: 10px;
 }
 
-.card-body {
+/* .card-body {
     padding: 5px;
     max-width: 80vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
+} */
 
-.col-md-3 {
+/* .col-md-3 {
     font-weight: 500;
-}
+} */
 
 .projectImage {
     border: 1px solid #adaba8;
