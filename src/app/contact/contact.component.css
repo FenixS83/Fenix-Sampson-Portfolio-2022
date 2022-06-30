@@ -1,30 +1,30 @@
-.contactCard {
+/* .contactCard {
     margin-top: 5vh;
     margin-bottom: 5vh;
-}
+} */
 
 
-.businessCard {
+img {
     border: 1px solid #adaba8;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 400px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* width: 400px; */
     /* margin-left: 50vw;
     margin-top: -30vh; */
-    float: right;
+    /* float: right; */
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 0px 7px rgba(0,0,0,0.45);
     border-radius: 5px;
 }
 
-.businessCard:hover {
+img:hover {
     box-shadow: -1px -1px 20px -1px rgba(81,113,255,0.5);
 }
 
-.contactCard__body__contact {
+/* .contactCard__body__contact {
     width: 45vw;
-}
+} */
 
-a {
+/* a {
     text-decoration: none;
-}
+} */

@@ -49,11 +49,11 @@
                         <img [src]='project.imageUrl'
                              [title]='project.projectTitle | uppercase'
                              [alt]='project.projectTitle'
-                             class='projectThumbnail'/>
+                             class='img-fluid float-start'/>
                     </td>
 
                     <td>
-                        <a [routerLink]="['/projects', project.projectId]">
+                        <a class="text-decoration-none" [routerLink]="['/projects', project.projectId]">
                             {{project.projectTitle}}
                         </a>
                     </td>

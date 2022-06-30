@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs';
 
 export class ProjectsListComponent implements OnInit {
   pageTitle = 'Projects List';
-  imageWidth=75;
+  // imageWidth=75;
   imageMargin = 2;
   errorMessage = '';
   sub!: Subscription;

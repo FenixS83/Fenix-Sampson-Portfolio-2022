@@ -5,52 +5,47 @@
     <h3>Project Details</h3>
     <!-- <div class='projectDetailsHeader'>
     </div> -->
-    <div class='col-md-4 float-end'>
+    <div class='col-md-5 float-end'>
         <img [src]='project.imageUrl' 
             [title]='project.projectTitle | uppercase'
             [alt]='project.projectTitle'
-            class='projectImage col-md-4'/>
+            class='img-fluid mb-5'/>
     </div>
 
     <div class='card-body'>
         <div class='row'>
-            <div class='col-md-8'>
+            <div class='col-md-7'>
 
-                <div class='row'>
-                    <div class='col-md-3 fw-bold'>Title:</div>
+                <div class='row mb-2'>
+                    <div class='col-md-4 fw-bold'>Title:</div>
                     <div class='col-md-8'>{{project.projectTitle}}</div>
                 </div>
-                <div class='row'>
-                    <div class='col-md-3 fw-bold'>Date Created:</div>
+                <div class='row mb-2'>
+                    <div class='col-md-4 fw-bold'>Date Created:</div>
                     <div class='col-md-8'>{{project.creationDate}}</div>
                 </div>
-                <div class='row'>
-                    <div class='col-md-3 fw-bold'>Description:</div>
+                <div class='row mb-2'>
+                    <div class='col-md-4 fw-bold'>Description:</div>
                     <div class='col-md-8'>{{project.description}}</div>
                 </div>
-                <br>
-                <div class='row'>
-                    <div class='col-md-3 fw-bold'>Skills Used:</div>
+                <div class='row mb-2'>
+                    <div class='col-md-4 fw-bold'>Skills Used:</div>
                     <div class='col-md-8'>{{project.skillsUsed}}</div>
                 </div>
-                <br>
-                <button class='btn btn-outline-secondary'
-                        style='width:80px'
+                <button class='btn btn-outline-secondary col-md-1'
                         (click)='onBack()'>
                     <i class='fa fa-chevron-left'></i> Back
                 </button>
-                <br>
-                <div class='row'>
-                    <div class='col-md-3 fw-bold'>Github Repo:</div>
-                    <a href={{project.github}} target='_blank'>
-                        <div class='col-md-8'>{{project.github}}</div>
+                <div class='row mb-2'>
+                    <div class='col-md-4 fw-bold'>Github Repo:</div>
+                    <a href={{project.github}} target='_blank' class='col-md-8'>
+                        <div>{{project.github}}</div>
                     </a>
                 </div>
-                <br>
-                <div class='row'>
-                    <div class='col-md-3 fw-bold'>Deployed Link:</div>
-                    <a href={{project.deployedLink}} target='_blank'>
-                        <div class='col-md-8'>{{project.deployedLink}}</div>
+                <div class='row mb-2'>
+                    <div class='col-md-4 fw-bold'>Deployed Link:</div>
+                    <a href={{project.deployedLink}} target='_blank' class='col-md-8'>
+                        <div>{{project.deployedLink}}</div>
                     </a>
 
                 </div>

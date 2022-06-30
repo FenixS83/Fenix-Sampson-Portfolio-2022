@@ -86,7 +86,7 @@ hr {
     margin-left: -2vw;
 } */
 
-.img {
+img {
     /* float: right; */
     /* max-width: 600px; */
     /* margin-top: 2vh; */
@@ -96,7 +96,7 @@ hr {
     border-radius: 5px;
 }
 
-.certificateImage:hover {
+img:hover {
     box-shadow: -1px -1px 20px -1px rgba(81,113,255,0.5);
 }
 

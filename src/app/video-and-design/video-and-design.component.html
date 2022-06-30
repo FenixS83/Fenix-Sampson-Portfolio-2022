@@ -1,98 +1,98 @@
 
-<div class='certifications-card'>
+<div class='container my-5'>
 
-    <div class='proficienciesBody'>
-        <div class='proficienciesHeader'>
-            <h3>Media Proficiencies</h3>
-        </div>
-        <div class='proficienciesSection'>
+    <div class='row my-5'>
+        <h3 class='fs-3 lead text-center fw-bold'>Media Proficiencies</h3>
+        <!-- <div class='proficienciesHeader'>
+        </div> -->
+        <div class='row justify-content-around my-5'>
 
-            <div class='avProficiencies'>
-                <h3>Audio/Video Software:</h3>
-                <ul className="skills">
-                    <li>Adobe Premiere Pro
+            <!-- <div class='avProficiencies'> -->
+                <ul class="list-group list-group-flush col-md-4 mb-3">
+                    <h3 class="text-center fs-4">Audio/Video Software:</h3>
+                    <li class="list-group-item my-1 fs-5">Adobe Premiere Pro
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
                         </div> -->
                     </li>
-                    <li>Filmora
+                    <li class="list-group-item my-1 fs-5">Filmora
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:50%'><p>Moderate</p></div>
                         </div> -->
                     </li>
-                    <li>GarageBand
+                    <li class="list-group-item my-1 fs-5">GarageBand
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:60%'><p>Intermediate</p></div>
                         </div> -->
                     </li>
-                    <li>LumaFusion
+                    <li class="list-group-item my-1 fs-5">LumaFusion
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
                         </div> -->
                     </li>
                 </ul>
-            </div>
-            <div class='designProficiencies'>
-                <h3>Design Software:</h3>
-                <ul className="skills">
-                    <li>Adobe Illustrator
+            <!-- </div> -->
+            <!-- <div class='designProficiencies'> -->
+                <ul class="list-group list-group-flush col-md-4 mb-3">
+                    <h3 class="text-center fs-4">Design Software:</h3>
+                    <li class="list-group-item my-1 fs-5">Adobe Illustrator
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
                         </div> -->
                     </li>
-                    <li>Adobe Photoshop
+                    <li class="list-group-item my-1 fs-5">Adobe Photoshop
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
                         </div> -->
                     </li>
-                    <li>Adobe XD
+                    <li class="list-group-item my-1 fs-5">Adobe XD
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:20%'><p>Beginner</p></div>
                         </div> -->
                     </li>
-                    <li>Canva
+                    <li class="list-group-item my-1 fs-5">Canva
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:50%'><p>Moderate</p></div>
                         </div> -->
                     </li>
-                    <li>VisualDesigner
+                    <li class="list-group-item my-1 fs-5">VisualDesigner
                         <!-- <div class='progressBar'>
                             <div class='progressBarFill' style='width:30%'><p>Moderate</p></div>
                         </div> -->
                     </li>
                 </ul>
                 
-            </div>
+            <!-- </div> -->
         </div>
         <br>
     <hr>
-    <div class='videosBody'>
-        <div class='videosHeader'>
-            <h3>Multimedia:</h3>
+    <div class='container my-3'>
+        <h3 class='fs-3 lead text-center fw-bold'>Multimedia:</h3>
+        <!-- <div class='videosHeader'> -->
             <!-- <p>(Clicking on an image will open video in new tab)</p> -->
-        </div>
+        <!-- </div> -->
         <br>
-        <div class='videos' *ngFor='let video of video; last as isLast'>
-            <a [href]='video.videoURL' target="_blank">
+        <div class='videos my-5' *ngFor='let video of video; last as isLast'>
+            <a [href]='video.videoURL' target="_blank" class="text-decoration-none">
                 <img [src]='video.videoImage'
                      [title]='video.organization | uppercase'
                      [alt]='video.organization'
-                    class='videoImage'/>
+                    class='img-fluid col-md-6 mb-5 float-end'/>
             </a>
             <br>
-            <div class='createdfor'>Created For:</div>
-            <div class='organization'>{{video.organization}}</div>
+            <div class='fs-4 mb-1'>Created For:</div>
+            <div class='fs-5 fw-bold'>{{video.organization}}</div>
             <br>
             <br>
-            <div class='projectTitle'>Title:</div>
-            <div class='title'><a [href]='video.videoURL' target="_blank">{{video.title}}</a></div>
+            <div class='fs-4 mb-1'>Title:</div>
+            <div class='fs-5 fw-bold'><a [href]='video.videoURL' target="_blank">{{video.title}}</a></div>
             <br>
             <br>
-            <div class='softwaresUsed'>Softwares Used:</div>
-            <div class='software'>{{video.software}}</div>
+            <div class='fs-4 mb-1'>Softwares Used:</div>
+            <div class='fs-5 fw-bold'>{{video.software}}</div>
             <br>
-            <div class='projectNotes'>Project Notes:</div>
-            <div class='notes'>{{video.notes}}</div>
+            <div class='fs-4 mb-1'>Project Notes:</div>
+            <div class='fs-5 fw-bold'>{{video.notes}}</div>
             <hr *ngIf="!isLast">
         </div>
     </div>
