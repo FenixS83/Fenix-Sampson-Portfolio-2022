@@ -32,9 +32,9 @@
                 <tr>
                     <th scope='col'>Thumbnail</th>
                     <th scope='col'>Title</th>
-                    <th scope='col'>Date Created:</th>
-                    <th scope='col'>Description</th>
-                    <th scope='col'>Skills Used:</th>
+                    <th scope='col' id="dateCreated">Date Created:</th>
+                    <th scope='col' id="description">Description</th>
+                    <th scope='col' id="skills">Skills Used:</th>
                     <!-- <th class='thumbnail'>Thumbnail</th>
                     <th class='title'>Title</th>
                     <th class='date'>Date Created:</th>
@@ -58,15 +58,15 @@
                         </a>
                     </td>
 
-                    <td>
+                    <td id="creationDate">
                         {{project.creationDate}}
                     </td>
 
-                    <td>
+                    <td id="projectDescription">
                         {{project.description}}
                     </td>
 
-                    <td>
+                    <td id="skillsUsed">
                         {{project.skillsUsed}}
                     </td>
 

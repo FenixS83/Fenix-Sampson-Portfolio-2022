@@ -1,15 +1,20 @@
 <nav class='navbar navbar-expand justify-content-between' style='background-color:#9f9d9d;' >
-  <a>
-  <img src="../assets/images/fenixLogoIconOnlyNobufferTransparent.png" alt='Home' class='logo-link' routerLinkActive='active' routerLink='/' title='Home'  />
-  </a>
-  <a class='navbar-brand text-wrap fs-1' id="pageTitle">{{pageTitle}}</a>
-  <ul class='nav nav-pills float-end'>
-    <li><a class='nav-link fs-5 me-2 p-2' routerLinkActive='active' routerLink='/about'>About</a></li>
-    <li><a class='nav-link fs-5 me-2 p-2' routerLinkActive='active' routerLink='/resume'>Resume</a></li>
-    <li><a class='nav-link fs-5 me-2 p-2' routerLinkActive='active' routerLink='/projects'>Projects</a></li>
-    <li><a class='nav-link fs-5 me-2 p-2' routerLinkActive='active' routerLink='/certifications'>Proficiencies</a></li>
-    <li><a class='nav-link fs-5 me-2 p-2' routerLinkActive='active' routerLink='/design'>A/V Media</a></li>
-    <li><a class='nav-link fs-5 me-2 p-2' routerLinkActive='active' routerLink='/contact'>Contact</a></li>
+  <!-- <div class="row d-flex flex-wrap justify-content-between"> -->
+    <!-- <div class="row d-flex flex-wrap justify-content-between"> -->
+      <a class="col ms-3">
+        <img src="../assets/images/fenixLogoIconOnlyNobufferTransparent.png" alt='Home' class='logo-link' routerLinkActive='active' routerLink='/' title='Home'  />
+      </a>
+      <a class='navbar-brand text-wrap col-md-5 fs-1' id="pageTitle">{{pageTitle}}</a>
+    <!-- </div> -->
+      
+  <!-- </div> -->
+  <ul class='nav nav-pills float-end justify-content-end col-md-5'>
+    <li><a class='nav-link fs-5 me-2 p-2 col' routerLinkActive='active' routerLink='/about'>About</a></li>
+    <li><a class='nav-link fs-5 me-2 p-2 col' routerLinkActive='active' routerLink='/resume'>Resume</a></li>
+    <li><a class='nav-link fs-5 me-2 p-2 col' routerLinkActive='active' routerLink='/projects'>Projects</a></li>
+    <li><a class='nav-link fs-5 me-2 p-2 col' routerLinkActive='active' routerLink='/certifications'>Proficiencies</a></li>
+    <li><a class='nav-link fs-5 me-2 p-2 col' routerLinkActive='active' routerLink='/design'>A/V Media</a></li>
+    <li><a class='nav-link fs-5 me-2 p-2 col' routerLinkActive='active' routerLink='/contact'>Contact</a></li>
   </ul>
 </nav>
 <div class='container'>

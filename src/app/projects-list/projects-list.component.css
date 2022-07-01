@@ -66,3 +66,39 @@ img {
     box-shadow: inset 0 3px 7px rgba(0,0,0,0.16), 0 0px 9px rgba(0,0,0,0.45);
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 767px) {
+    #skills {
+        display: none
+    }
+
+    #skillsUsed {
+        display: none
+    }
+
+    /* #description {
+        overflow: scroll;
+    } */
+}
+
+@media only screen and (max-width: 520px) {
+    #description {
+        display: none
+    }
+
+    #projectDescription {
+        display: none
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    #dateCreated {
+        display: none
+    }
+
+    #creationDate {
+        display: none
+    }
+
+}

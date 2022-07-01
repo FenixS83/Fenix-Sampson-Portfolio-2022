@@ -15,11 +15,13 @@ ul {
     /* justify-content: end; */
     /* font-size: 20px; */
     font-weight: 400;
+    /* margin-right: 10%; */
 }
 
 #pageTitle {
+    /* border: 1px solid red; */
     /* font-size: 42px; */
-    margin-right: 6vw;
+    /* margin-right: 6vw; */
     /* margin-left: 1vw; */
     color: #212121;
     /* text-shadow:  0px 1px 2px #5371ff; */
@@ -79,3 +81,84 @@ ul {
     box-shadow: inset 100px 100px 100px 100px #5ce0e7;
     color: #212121;
   }
+
+
+  @media only screen and (max-width: 539px) {
+      img {
+          margin-bottom: 90%;
+          margin-top: -10%;
+          margin-left: 70%;
+          /* margin-right: -60%; */
+          max-width: 125px;
+          /* border: 1px solid greenyellow; */
+        }
+        
+    
+    #pageTitle {
+        margin-top: 35%;
+        margin-left: -25%;
+        flex-wrap: wrap;
+        word-wrap: normal;
+        /* width: 10%; */
+    }
+
+    .nav {
+        /* margin-right: 1%; */
+        align-items: end;
+        width: 40%;
+    }
+}
+
+  @media only screen and (max-width: 487px) {
+      img {
+          margin-bottom: 90%;
+          margin-top: -20%;
+          margin-left: 30%;
+          /* margin-right: -60%; */
+          max-width: 120px;
+          /* border: 1px solid greenyellow; */
+        }
+        
+    
+    #pageTitle {
+        margin-top: 35%;
+        margin-left: -30%;
+        flex-wrap: wrap;
+        word-wrap: normal;
+        /* width: 10%; */
+    }
+
+    .nav {
+        margin-right: -3%;
+        align-items: end;
+        width: 40%;
+    }
+}
+
+    @media only screen and (max-width: 452px) {
+        img {
+            margin-bottom: 90%;
+            margin-top: -40%;
+            margin-left: 30%;
+            /* margin-right: -60%; */
+            max-width: 120px;
+          }
+        }
+
+    @media only screen and (max-width: 420px) {
+        img {
+            margin-bottom: 90%;
+            margin-top: -35%;
+            margin-left: 30%;
+            /* margin-right: -60%; */
+            max-width: 120px;
+          }
+        
+        
+        #pageTitle {
+            margin-top: 50%;
+            margin-left: -35%;
+
+        }
+        }
+    
