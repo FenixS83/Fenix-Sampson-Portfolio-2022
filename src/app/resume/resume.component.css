@@ -71,8 +71,8 @@ ul {
 
 @media only screen and (max-width: 450px) {
     #education {
-        margin-top: 85%;
-        padding-top: 40%;
+        margin-top: 55%;
+        /* padding-top: 50%; */
         /* margin-left: 20%; */
     }
 
@@ -97,4 +97,26 @@ ul {
         font-size: 24px;
     }
 
+}
+
+@media only scren and (max-width: 435px) {
+    button {
+        margin-bottom: 0%;
+        /* margin-top: -40%; */
+    }
+    
+    #pdfButton {
+        margin-bottom: 0%;
+        /* margin-top: -40%; */
+    }
+    
+    #pdfSection {
+        margin-bottom: 0%;
+        margin-top: -40%;
+    }
+
+    #education {
+        margin-top: -20%;
+        /* padding-top: -25%; */
+    }
 }
