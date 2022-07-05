@@ -128,5 +128,15 @@
       "imageUrl": "./assets/images/projectImages/pop_culture_quiz_SS_1.png",
       "github": "https://github.com/FenixS83/pop-culture-quiz",
       "deployedLink":"https://fenixs83.github.io/pop-culture-quiz/"
+  },
+  {
+      "projectId": 14,
+      "projectTitle": "Current Portfolio",
+      "creationDate": "April 2, 2022",
+      "description": "An Angular and Bootstrap portfolio website that displays my current and past projects as well as a brief introduction to me and my background.",
+      "skillsUsed": "HTML, CSS, JavaScript, TypeScript, Angular 13, Bootstrap 5, Adobe XD, Adobe Illustrator, Adobe Photoshop, Mindly, Canva, VisualDesigner",
+      "imageUrl": "./assets/images/projectImages/angular_portfolio_screenshot.png",
+      "github": "https://github.com/FenixS83/Fenix-Sampson-Portfolio-2022",
+      "deployedLink":"https://hustonfenixsampson.com"
   }
 ]
