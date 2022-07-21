@@ -43,7 +43,7 @@
     "projectId": 5,
     "projectTitle": "Employee Tracker",
     "creationDate": "Oct 23, 2021",
-    "description": "A commmand line application used to track and manage employees",
+    "description": "A command line application used to track and manage employees",
     "skillsUsed": "JavaScript, Node.js, MySql, MySql2, Figlet, Inquirer, Sequelize, Dotenv",
     "imageUrl": "./assets/images/projectImages/employee_tracker_start.png",
     "github": "https://github.com/FenixS83/employee-tracker",
