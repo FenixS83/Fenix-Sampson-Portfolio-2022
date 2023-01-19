@@ -7,7 +7,7 @@
     "skillsUsed": "HTML, CSS, JavaScript, MongoDB, Mongoose, Express.js",
     "imageUrl": "./assets/images/projectImages/workout-tracker-dashboard.png",
     "github": "https://github.com/FenixS83/workout-tracker",
-    "deployedLink":"https://guarded-earth-38168.herokuapp.com/?id=619464fe03c8840016ec07a7"
+    "deployedLink":"https://fenixs-workout-tracker.onrender.com/"
   },
   {
     "projectId": 2,
@@ -17,7 +17,7 @@
     "skillsUsed": "HTML, CSS, JavaScript, Express.js, MongoDB",
     "imageUrl": "./assets/images/projectImages/budget_tracker_1.png",
     "github": "https://github.com/FenixS83/budget-tracker",
-    "deployedLink":"https://sheltered-earth-47925.herokuapp.com/"
+    "deployedLink":"https://fenixs-budget-tracker.onrender.com/"
   },
   {
     "projectId": 3,
